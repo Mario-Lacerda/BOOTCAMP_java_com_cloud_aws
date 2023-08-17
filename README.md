@@ -7,4 +7,5 @@ Para acessar as anotações dos cursos basta acessar [este link](https://marlonp
 
 ```
 Estudos pausados para dar foco em outro bootcamp mais direcionado.
-Ao término do outro, retomo este```
+Ao término do outro, retomo este
+```
