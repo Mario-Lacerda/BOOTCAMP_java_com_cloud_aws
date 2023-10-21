@@ -114,7 +114,7 @@ A estrutura das classes é:
 
 Abaixo um exemplo de objeto e classe Java no mundo real:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled.png)
+![Untitled](./for_readme/Untitled.png)
 
 Abaixo o código:
 
@@ -167,7 +167,7 @@ Para seguir as convenções em Java precisamos respeitar a estrutura de classes 
 
 Abaixo um exemplo de estrutura de classes para uma aplicação de concessionária:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%201.png)
+![Untitled](./for_readme/Untitled%201.png)
 
 Link da apresentação da aula:
 
@@ -181,7 +181,7 @@ Por isso é importante desde o início o desenvolvedor se preocupar com a dispos
 
 Abaixo um exemplo de organização de pacotes em Java:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%202.png)
+![Untitled](./for_readme/Untitled%202.png)
 
 ### Convenção: Nomenclatura
 
@@ -245,12 +245,12 @@ Os passos do exemplo prático:
 5. Após tudo isso a estrutura deve ficar da seguinte forma:
     - Exemplo
 
-        ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%203.png)
+        ![Untitled](./for_readme/Untitled%203.png)
 
 6. Dentro da classe **ExameService** podemos adicionar um método chamado **salvarExame** que chama o exame, para isso precisamos **importar a classe Exame via import do nome qualificado**, conforme exemplo abaixo:
     - Exemplo
 
-        ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%204.png)
+        ![Untitled](./for_readme/Untitled%204.png)
 
 ### Link de referência aula completa
 
@@ -272,7 +272,7 @@ No exemplo abaixo todas as classes conseguem acessar a todas elas.
 
 - Diagrama de exemplo
 
-    ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%205.png)
+    ![Untitled](./for_readme/Untitled%205.png)
 
 - Código cozinheiro
 
@@ -468,23 +468,23 @@ Dentro do pacote **`lanchonete`**, podemos criar dois sub-pacotes para represent
 
 - Diagrama com estrutura de exemplo
 
-    ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%206.png)
+    ![Untitled](./for_readme/Untitled%206.png)
 
 Seguindo essa estrutura, ao utilizar o padrão de visibilidade **default** nos métodos **entregarIngredientes** e **trocarGas** contidos dentro da classe **almoxarife:**
 
 - Exemplo de como estava
 
-    ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%207.png)
+    ![Untitled](./for_readme/Untitled%207.png)
 
 - Exemplo de como ficou
 
-    ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%208.png)
+    ![Untitled](./for_readme/Untitled%208.png)
 
 Nenhuma classe fora do pacote **cozinha** conseguirá acessar estes métodos, como por exemplo a classe **estabelecimento:**
 
 - Exemplo de erro ao tentar acessar
 
-    ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%209.png)
+    ![Untitled](./for_readme/Untitled%209.png)
 
 Por outro lado, o **cozinheiro** consegue acessar esses métodos por estar no mesmo pacote
 
@@ -846,7 +846,7 @@ UML ou Linguagem de Modelagem Unificada é uma ferramenta de diagramação utili
 
 Abaixo um exemplo de diagrama:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2010.png)
+![Untitled](./for_readme/Untitled%2010.png)
 
 Notações UML são distribuídas em duas grandes categoriais, as **estruturais** e as **comportamentais.**
 
@@ -871,19 +871,19 @@ Uma associação, define um relacionamento entre duas classes, permitindo que, u
 
 Abaixo um exemplo:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2011.png)
+![Untitled](./for_readme/Untitled%2011.png)
 
 - **Agregação:** Em uma agregação, **a classe principal contém uma relação com outra classe, mas ela pode existir, sem a classe agregadora.**
   - Por exemplo, em um cadastro de Candidatos, podemos encontrar candidatos que ainda não possuam uma profissão, ou seja, a profissão é agregada ao candidato
   - Diagrama de exemplo
 
-        ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2012.png)
+        ![Untitled](./for_readme/Untitled%2012.png)
 
 - **Composição:** A composição já **caracteriza uma dependência existencial**, entre a classe principal e a classe associada.
   - Por exemplo, uma admissão só poderá existir, contendo suas informações básicas como salário e a composição do candidato selecionado. Admissão só existe com a classe candidato, então **admissão é a classe principal e candidato é a composição**
   - Diagrama de exemplo
 
-        ![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2013.png)
+        ![Untitled](./for_readme/Untitled%2013.png)
 
 ### Multiplicidade
 
@@ -909,7 +909,7 @@ Abaixo as opções:
 
 Abaixo um exemplo de UML:
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2014.png)
+![Untitled](./for_readme/Untitled%2014.png)
 
 ### Para praticar
 
@@ -922,7 +922,7 @@ Abaixo algumas opções de ferramentas para começar a praticar:
 
 O exemplo abaixo foi feito no [draw.io](http://draw.io) e representa uma classe **candidato** que contém **até 3 telefones** vinculados na forma de **composição com o candidato:**
 
-![Untitled](Fundamentos%20de%20programac%CC%A7a%CC%83o%20Orientada%20a%20Objetos%20c%20a6c75410e7e94e32ac6b88ee4be9f08b/Untitled%2015.png)
+![Untitled](./for_readme/Untitled%2015.png)
 
 ### Link de referência da aula completa
 
